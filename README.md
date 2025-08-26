@@ -10,7 +10,9 @@ sudo dnf install cascadia-mono-nf-fonts
 
 ## Programs
 ```
-sudo dnf install afetch bat lsd rlwrap tcllib
+dnf install afetch bat lsd rlwrap tcllib
+dnf install meson gperf flex glib2-devel gcc gcc-c++ gtk3-devel \
+            gobject-introspection-devel desktop-file-utils tcl gtkwave
 ```
 #### Fancy-git
 [https://github.com/diogocavilha/fancy-git]
